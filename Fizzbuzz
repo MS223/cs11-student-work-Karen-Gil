@@ -6,18 +6,20 @@ def multi3(input):
         if x % 3 == 0:
             print "fizz"
 #multi3(fizzbuzz)
-
+#In order to get multipules of 3 
 def multi5(input):
     for x in input:
         if x % 5 == 0:
             print "buzz"
 #multi5(fizzbuzz)
-
+#Multipules of 5
 def both(input):
     for x in input:
         if x % 5 == 0 and x % 3 ==0:
             print "Fizzbuzz"
 #both(fizzbuzz)
+#in order to get everything as one it has to be in one def 
+#fizzbuzz has to go first in order for fizzbuzz not be confused with buzz or fizz
 
 def everything(input):
     for x in input:
