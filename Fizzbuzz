@@ -1,0 +1,32 @@
+fizzbuzz= range(1,100)
+
+
+def multi3(input):
+    for x in input:
+        if x % 3 == 0:
+            print "fizz"
+#multi3(fizzbuzz)
+
+def multi5(input):
+    for x in input:
+        if x % 5 == 0:
+            print "buzz"
+#multi5(fizzbuzz)
+
+def both(input):
+    for x in input:
+        if x % 5 == 0 and x % 3 ==0:
+            print "Fizzbuzz"
+#both(fizzbuzz)
+
+def everything(input):
+    for x in input:
+        if x % 3 == 0 and x % 5 == 0:
+            print "Fizzbuzz"
+        elif x % 5 == 0:
+            print "Buzz"
+        elif  x % 3 == 0:
+            print"Fizz"
+        else:
+            print x
+everything(fizzbuzz)
