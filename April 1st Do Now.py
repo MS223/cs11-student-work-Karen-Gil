@@ -22,5 +22,5 @@ while a != "y":
 	a = raw_input("Would you like to quit: ")
 """
 Prediction:even if you say yes iy will always ask you the same thing
-Observation: IT did 
+Observation: IT did until you put y
  """
