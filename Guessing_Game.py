@@ -15,3 +15,4 @@ while guess != random: #as long as the answer is incorect
 print("YAYYYYYYYY YOU GOT IT RIGHT!!!!!!!!!")
 print "It took you " + str(score) + " try to get it right" # prints out the number of tries
 #elif  guess == random
+
