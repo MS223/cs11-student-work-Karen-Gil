@@ -11,20 +11,27 @@ def return_only(x):
    return y
 # #it dosnt print anything. It just returns it to the computer
 # # let's try to use our 2 functions
+
 # print "running print_only ..."
 # print_only(7)
 # #it will only print the statement "Running print only
+
 # print "running return_only ..."
 # return_only(7)
-#
+#It will print "running return_only ..." and it will keep te number 14 inside the computer bcause of the return 
+
 # print "printing print_only ..."
 # print print_only(7)
-#
+#It will print out "printing print_only ..." and since there are 2 prints on line 24 it will print out the number 14 and none because of the out come of the first print in the first eqation 
+
 # print "printing return_only ..."
 # print return_only(7)
-#
+#It will print "printing return_only ..." and then print out 14
+
 # print "using print_only ..."
 # print_only(7) + 6
+# It will prinnt out "using print_only ..." and print out 14
 
 print "using return_only ..."
 print return_only(7) + 6
+# it will keep the number 14 inside the computer and add 6 to it then print out the number 20
