@@ -1,0 +1,19 @@
+my_dictionary = {
+'cat': 'a domestic feline',
+'dog': 'a domestic canine',
+'chair': 'furniture piece for sitting',
+'car': 'automobile'
+}
+print my_dictionary
+print my_dictionary['dog']
+print my_dictionary.get('dog')
+print 'cat' in my_dictionary
+print 'monkey' in my_dictionary
+print my_dictionary['chair']
+print my_dictionary['kittens']
+
+#It prints the whole function dictionary , the definition for dog twice
+#Then it prints true because it ask if cat is in your dictionary
+#then it ask if monkey is in the dictionary so it is false
+# Dictionary is a list
+#I think that it is an error because it isn't in the dictionary but then again it probably should have said false
