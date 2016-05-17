@@ -1,0 +1,30 @@
+my_dictionary = {
+'kittens': 'cute animals'
+}
+my_dictionary['kittens'] = 'delicious'
+print my_dictionary
+# the second line defines the word
+
+my_dictionary = {}
+my_dictionary['puppies'] = 'baby dogs'
+print my_dictionary
+# it calls the function my_dictionary
+# The second line as the word puppies and adds  its definition t my dictionary
+
+my_dictionary = {
+    'hello': 'hola',
+    'goodbye': 'adios'
+    }
+print my_dictionary.pop('foo', None)
+# None
+print my_dictionary
+# {'goodbye': 2}
+
+my_dictionary = {
+    'hello': 'hola',
+    'goodbye': 'adios'
+    }
+print my_dictionary.pop('foo')
+print my_dictionary
+# I think the difference is that in my_dictionary.pop('foo', None) it has the word added to it making it valid to the computer and
+# print my_dictionary.pop('foo')`dosn't have this value 
