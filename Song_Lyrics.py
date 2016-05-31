@@ -2,10 +2,10 @@ class Song(object):
 
     def __init__(self, lyrics,title,artist):
         self.lyrics = lyrics
-        self.artist= title
-        self.title= artist
+        self.artist= artist
+        self.title= title
 
-    def sing_me_a_song(self,lyrics,title,artist):
+    def sing_me_a_song(self):
         print self.title
         print self.artist
         for line in self.lyrics:
